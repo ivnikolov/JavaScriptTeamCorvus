@@ -24,17 +24,17 @@ var level = 0.2;
     }
 
 
-var hero = new Animation(32, 32, 0,0,5, 'resources/hero.png', 3, 5, 4);
-var soldier = new Animation(32, 32, 3,0,9, 'resources/soldier.png', 8, 9, 4);
-var flower = new Animation(25, 32, 3,0,3, 'resources/flower.png', 4, 3, 4);
+//var hero = new Animation(32, 32, 0,0,5, 'resources/hero.png', 3, 5, 4);
+//var soldier = new Animation(32, 32, 3,0,9, 'resources/soldier.png', 8, 9, 4);
+//var flower = new Animation(25, 32, 3,0,3, 'resources/flower.png', 4, 3, 4);
 
 
-    hero.position.set(50,50);
-    flower.position.set(150,150);
+//    hero.position.set(50,50);
+//   flower.position.set(150,150);
     function update(){
-        tick();
+//        tick();
         renderLevel(3);
-        render(ctx);
+//        render(ctx);
 
 
 
@@ -42,9 +42,9 @@ var flower = new Animation(25, 32, 3,0,3, 'resources/flower.png', 4, 3, 4);
     }
 
     function tick (){
-        hero.update();
-        soldier.update();
-        flower.update();
+//        hero.update();
+//        soldier.update();
+//        flower.update();
 
 
 
@@ -54,9 +54,9 @@ var flower = new Animation(25, 32, 3,0,3, 'resources/flower.png', 4, 3, 4);
         ctx.clearRect(0,0,800,600);
         renderLevel(3);
 
-        hero.draw(ctx);
-        soldier.draw(ctx);
-        flower.draw(ctx);
+//        hero.draw(ctx);
+//        soldier.draw(ctx);
+//        flower.draw(ctx);
 
 
     }
